@@ -1,0 +1,277 @@
+{
+  "Metadata": {
+    "siteName": "Growth Wave",
+    "home": {
+      "title": "Growth Wave | Training and Consulting for Sustainable Growth",
+      "description": "Growth Wave designs capability programs, practical consulting and eLearning that translate strategy into measurable, lasting performance."
+    },
+    "contact": {
+      "title": "Contact Us | Growth Wave",
+      "description": "Get in touch with Growth Wave in Riyadh for training, consulting and eLearning inquiries."
+    },
+    "comingSoon": {
+      "title": "{page} | Growth Wave"
+    },
+    "notFound": {
+      "title": "Page not found | Growth Wave"
+    }
+  },
+  "Common": {
+    "opensInNewTab": "(opens in a new tab)"
+  },
+  "Nav": {
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Menu",
+    "logoLabel": "Growth Wave home",
+    "home": "Home",
+    "about": "About Us",
+    "consultations": "Consultations",
+    "training": "Training",
+    "courses": "Training Areas",
+    "resources": "Resources",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "localeSwitch": {
+      "label": "Switch to Arabic",
+      "short": "AR"
+    }
+  },
+  "Social": {
+    "linkedin": "Growth Wave on LinkedIn",
+    "instagram": "Growth Wave on Instagram",
+    "facebook": "Growth Wave on Facebook",
+    "x": "Growth Wave on X"
+  },
+  "Hero": {
+    "title": "Training and Consulting for Sustainable Growth",
+    "subtitle": "We design capability programs and practical consulting that translate strategy into execution (measurable, scalable, and built to last).",
+    "cta": "Company Profile",
+    "imageAlt": "Saudi professionals talking in a modern office"
+  },
+  "About": {
+    "eyebrow": "About Growth Wave",
+    "title": "Why Growth Wave?",
+    "subtitle": "Learn More About Us",
+    "body": "At Growth Wave, we strive for sustainable growth by helping individuals and organizations build the capabilities that drive real performance. Through practical training and hands-on consulting, we design tailored solutions that translate strategy into execution (creating measurable, lasting impact).",
+    "imageAlt": "Participants in a Growth Wave workshop around a meeting table",
+    "cta": "Discover More",
+    "features": {
+      "tailored": {
+        "title": "Tailored Programs",
+        "description": "Designed around your business priorities, addressing your unique challenges, goals, and context."
+      },
+      "impact": {
+        "title": "Measurable Impact",
+        "description": "We focus on outcomes that matter, translating learning into performance and sustainable growth."
+      },
+      "guidance": {
+        "title": "Expert Guidance",
+        "description": "Delivered by seasoned practitioners and subject-matter experts with real-world experience."
+      }
+    }
+  },
+  "Services": {
+    "eyebrow": "Our Services",
+    "title": "Solutions that empower people and strengthen organizations",
+    "intro": "We deliver training, consulting, and eLearning solutions for government, private sector, education, and international partners, focused on sustainable growth through measurable capability and performance.",
+    "items": {
+      "consulting": {
+        "title": "Consulting",
+        "description": "Practical advisory and implementation support to diagnose priorities, design solutions, and execute with clarity."
+      },
+      "training": {
+        "title": "Training",
+        "description": "Expert-led programs tailored to your needs, leadership, digital, ESG, finance, and more with strong workplace application."
+      },
+      "elearning": {
+        "title": "eLearning",
+        "description": "High-quality digital learning experiences delivered as standalone or blended journeys, interactive, scalable, and tailored."
+      }
+    }
+  },
+  "Courses": {
+    "eyebrow": "Most Demanded Courses",
+    "title": "Discover Our Training Courses",
+    "intro": "We offer a diverse range of courses designed to meet the needs of the job market, providing practical and flexible learning experiences, led by a team of certified trainers.",
+    "cta": "Course Overview",
+    "more": "Discover more courses",
+    "imageAlt": "A light bulb with sketches rising from an open book",
+    "items": {
+      "esgRisk": {
+        "title": "ESG Risk Management",
+        "category": "ESG",
+        "description": "Identify, assess, and mitigate risks related to ESG."
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis for Business Decisions",
+        "category": "Digital Transformation",
+        "description": "Apply data-driven methods to make strategic business decisions."
+      },
+      "teamLeadership": {
+        "title": "Effective Team Leadership",
+        "category": "Leadership Development",
+        "description": "Develop teamwork, communication, and motivation skills to achieve team success and organizational growth."
+      },
+      "financeForNonFinancial": {
+        "title": "Finance for Non-Financial Professionals",
+        "category": "Finance & Compliance",
+        "description": "Introduction to budgeting, financial statements, and basic financial concepts."
+      },
+      "communication": {
+        "title": "Effective Communication Essentials",
+        "category": "Personal Skills & Professional Development",
+        "description": "Foundations of clear communication and active listening."
+      },
+      "timeManagement": {
+        "title": "Time Management and Productivity Skills",
+        "category": "Personal Skills & Professional Development",
+        "description": "Techniques to prioritize tasks and maximize efficiency."
+      }
+    }
+  },
+  "Partners": {
+    "eyebrow": "Our Partners",
+    "title": "Trust We Are Proud Of",
+    "intro": "We serve diverse sectors and take pride in our long-term relationships with our partners.",
+    "items": {
+      "bsi": {
+        "name": "BSI"
+      },
+      "nec": {
+        "name": "National eLearning Center"
+      },
+      "tvtc": {
+        "name": "Technical and Vocational Training Corporation"
+      }
+    }
+  },
+  "Cta": {
+    "eyebrow": "Contact Us",
+    "title": "Contact us or become part of our team",
+    "body": "Discover how Growth Wave can help you or your organization thrive in today’s dynamic world.",
+    "button": "Click Here",
+    "imageAlt": "Professionals shaking hands after a meeting"
+  },
+  "Footer": {
+    "tagline": "Your partner for sustainable growth. Consulting, training, and eLearning that turn capability into performance.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact Us",
+    "location": "Riyadh, Kingdom of Saudi Arabia",
+    "rights": "Growth Wave © {year} All rights reserved",
+    "links": {
+      "home": "Home",
+      "courses": "Training Areas",
+      "about": "About Us",
+      "resources": "Knowledge Resources",
+      "training": "Training",
+      "consultations": "Consulting",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "contact": "Contact Us"
+    }
+  },
+  "Contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We’re happy to help, contact us for inquiries, collaborations or support.",
+      "imageAlt": "A smiling Saudi professional"
+    },
+    "info": {
+      "title": "Contact Information",
+      "body": "Feel free to reach out for any questions or support needs, we’re here to help.",
+      "locationLabel": "Location",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "location": "Riyadh, Kingdom of Saudi Arabia",
+      "followUs": "Follow us on social media:"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "labels": {
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "email": "name@company.com",
+        "phone": "05XXXXXXXX",
+        "subject": "How can we help?",
+        "message": "Write your message here"
+      },
+      "counter": "{count}/{max}",
+      "submit": "Send",
+      "sending": "Sending…",
+      "errors": {
+        "fullName": {
+          "required": "Enter your full name.",
+          "tooShort": "Name must be at least 3 characters.",
+          "tooLong": "Name must be 80 characters or fewer.",
+          "invalid": "Use letters only (Arabic or English)."
+        },
+        "email": {
+          "required": "Enter your email address.",
+          "invalid": "Enter a valid email address, like name@company.com."
+        },
+        "phone": {
+          "required": "Enter your phone number.",
+          "invalid": "Enter a Saudi mobile number like 05XXXXXXXX or +9665XXXXXXXX."
+        },
+        "subject": {
+          "required": "Enter a subject.",
+          "tooShort": "Subject must be at least 3 characters.",
+          "tooLong": "Subject must be 100 characters or fewer."
+        },
+        "message": {
+          "required": "Enter your message.",
+          "tooShort": "Message must be at least 10 characters.",
+          "tooLong": "Message must be 1000 characters or fewer."
+        }
+      },
+      "status": {
+        "success": "Message sent",
+        "successDescription": "Thanks for reaching out. We’ll get back to you soon.",
+        "error": "Couldn’t send your message",
+        "errorDescription": "Something went wrong on our side. Try again in a moment."
+      }
+    },
+    "map": {
+      "title": "Our Location",
+      "iframeTitle": "Growth Wave location in Riyadh on Google Maps",
+      "open": "Open in Google Maps"
+    }
+  },
+  "ComingSoon": {
+    "title": "{page} — coming soon",
+    "body": "We’re working on this page. In the meantime, explore our home page or get in touch.",
+    "home": "Back to home",
+    "contact": "Contact us",
+    "pages": {
+      "about": "About Us",
+      "consultations": "Consultations",
+      "training": "Training",
+      "courses": "Training Areas",
+      "resources": "Resources",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "login": "Login",
+      "signup": "Sign Up"
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you’re looking for doesn’t exist or has moved.",
+    "home": "Back to home"
+  },
+  "Error": {
+    "title": "Something went wrong",
+    "body": "An unexpected error occurred. Try again.",
+    "retry": "Try again"
+  }
+}
