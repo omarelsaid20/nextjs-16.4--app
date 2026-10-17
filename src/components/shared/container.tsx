@@ -10,7 +10,7 @@ type ContainerProps = {
 
 const widths = {
   content: 'mx-auto max-w-[1200px] px-4 md:px-6 lg:px-8',
-  bleed: 'px-10 min-[501px]:px-20 min-[988px]:px-30',
+  bleed: 'px-5 sm:px-10 md:px-20 lg:px-30',
 } as const;
 
 export function Container({

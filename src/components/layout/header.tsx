@@ -29,7 +29,7 @@ export async function Header() {
     <HeaderShell>
       <Container
         width="bleed"
-        className="flex h-22.25 items-center gap-2 xl:gap-4"
+        className="flex h-16 items-center gap-3 sm:h-22.25 xl:gap-4"
       >
         <MobileNav
           items={navItems}
