@@ -1,6 +1,6 @@
 # Growth Wave — Home & Contact
 
-**Live preview:** _added here once the Vercel project is connected._
+**Live preview:** https://nextjs-16-4-app.vercel.app/
 
 The Home and Contact Us pages of [Growth Wave](https://growthwave-sa.com), a Saudi training and consulting company, rebuilt in Next.js. Both pages come in Arabic (right to left, the default) and English (left to right), and follow Growth Wave's own identity: its logo, photos, partner logos and brand blue.
 
