@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 
-/* Growth Wave brand tokens → utilities like bg-brand, text-ink, bg-tint-50, rounded-card. */
 @theme {
   --color-brand: #0047ab;
   --color-brand-hover: #003a8c;
@@ -12,8 +11,12 @@
   --color-muted: #6b6b6b;
   --color-line: #d4d4d4;
   --color-error: #c62828;
-  --font-sans: var(--font-readex-pro), ui-sans-serif, system-ui, sans-serif;
+  --font-sans:
+    'Outfit', 'Readex Pro', 'Outfit Fallback', 'Readex Pro Fallback',
+    ui-sans-serif, system-ui, sans-serif;
   --radius-card: 1rem;
+  --shadow-card: 0 4px 20.5px rgb(217 235 255);
+  --shadow-card-hover: 0 8px 25px rgb(0 71 171 / 0.4);
 }
 
 @layer base {
@@ -22,10 +25,13 @@
   }
 }
 
-/* Reveal's hidden start state needs JavaScript to clear; without it, show content. */
 @media (scripting: none) {
   [data-reveal] {
     opacity: 1;
     translate: none;
   }
+}
+
+@utility card-hover {
+  @apply transition-[translate,scale,box-shadow] duration-400 ease-in-out hover:shadow-card-hover motion-safe:hover:-translate-y-2 motion-safe:hover:scale-102;
 }

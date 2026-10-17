@@ -1,8 +1,13 @@
-import { Readex_Pro } from 'next/font/google';
+import { Outfit, Readex_Pro } from 'next/font/google';
 
-// One variable family for Arabic and Latin, self-hosted by next/font at build time.
+export const outfit = Outfit({
+  subsets: ['latin'],
+  variable: '--font-outfit',
+  display: 'swap',
+});
+
 export const readexPro = Readex_Pro({
-  subsets: ['arabic', 'latin'],
+  subsets: ['arabic'],
   variable: '--font-readex-pro',
   display: 'swap',
 });

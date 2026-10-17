@@ -17,9 +17,8 @@ type RevealProps = {
   delay?: keyof typeof delays;
 };
 
-// Fades and slides its content up once it scrolls into view. The hidden start
-// state is motion-safe only, so with reduced motion the content is visible
-// from the start. globals.css also shows it when JavaScript is off.
+// Content starts hidden only under motion-safe, so reduced motion shows it at
+// once. globals.css also shows it when JavaScript is off.
 export function Reveal({ children, className, delay = 0 }: RevealProps) {
   const { ref, inView } = useInView<HTMLDivElement>({
     rootMargin: '0px 0px -10% 0px',

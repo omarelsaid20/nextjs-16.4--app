@@ -10,7 +10,6 @@ type SectionHeadingProps = {
   titleAs?: 'h1' | 'h2';
 };
 
-// Eyebrow with a brand bar on its inline-start side, then the section title.
 export function SectionHeading({
   eyebrow,
   title,

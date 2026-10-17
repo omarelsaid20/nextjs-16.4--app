@@ -5,22 +5,21 @@ type ContainerProps = {
   children: ReactNode;
   className?: string;
   as?: 'div' | 'section' | 'header' | 'footer' | 'nav';
+  width?: keyof typeof widths;
 };
 
-// The site's 1200px content column with responsive side padding.
+const widths = {
+  content: 'mx-auto max-w-[1200px] px-4 md:px-6 lg:px-8',
+  bleed: 'px-10 min-[501px]:px-20 min-[988px]:px-30',
+} as const;
+
 export function Container({
   children,
   className,
   as: Tag = 'div',
+  width = 'content',
 }: ContainerProps) {
   return (
-    <Tag
-      className={cn(
-        'mx-auto w-full max-w-[1200px] px-4 md:px-6 lg:px-8',
-        className,
-      )}
-    >
-      {children}
-    </Tag>
+    <Tag className={cn('w-full', widths[width], className)}>{children}</Tag>
   );
 }

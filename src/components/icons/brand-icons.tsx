@@ -1,8 +1,7 @@
 import type { SVGProps } from 'react';
 
-// Brand icons from simple-icons (CC0); lucide-react has no brand icons. X, Facebook
-// and Instagram come from v16.35.0. LinkedIn comes from v13.21.0, the last release
-// that ships it (it was removed in v14).
+// From simple-icons (CC0), since lucide-react has no brand icons. LinkedIn is
+// from v13.21.0, the last release that ships it; the others from v16.35.0.
 type IconProps = SVGProps<SVGSVGElement>;
 
 function BrandIcon({ d, ...props }: IconProps & { d: string }) {

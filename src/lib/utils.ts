@@ -1,7 +1,7 @@
 type ClassValue = string | false | null | undefined;
 
-// Joins the truthy class names. There is no conflict merging, so primitives
-// expose variant/size props instead of relying on className overrides.
+// No conflict merging (no tailwind-merge), so primitives offer variant/size
+// props instead of relying on className overrides.
 export function cn(...classes: ClassValue[]): string {
   return classes.filter(Boolean).join(' ');
 }
