@@ -9,8 +9,7 @@ export type CourseId =
   | 'communication'
   | 'timeManagement';
 
-// Title, category and description live in Courses.items.<id>. Growth Wave's
-// site shows the same sample image on every course card.
+// Text lives in Courses.items.<id>.
 export const courses: readonly { id: CourseId; image: StaticImageData }[] = [
   { id: 'esgRisk', image: course },
   { id: 'dataAnalysis', image: course },
