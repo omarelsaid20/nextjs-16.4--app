@@ -2,7 +2,6 @@ import type { Locale } from '@/i18n/routing';
 
 // Structure only: hrefs, ids and keys. All visible text lives in src/messages.
 
-/** Pages that render the localized "Coming soon" page. */
 export const comingSoonSlugs = [
   'about',
   'consultations',

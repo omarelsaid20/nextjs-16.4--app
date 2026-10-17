@@ -22,8 +22,6 @@
   "Nav": {
     "skipToContent": "انتقل إلى المحتوى الرئيسي",
     "mainNavigation": "التنقل الرئيسي",
-    "openMenu": "فتح القائمة",
-    "closeMenu": "إغلاق القائمة",
     "menuTitle": "القائمة",
     "logoLabel": "جروث ويف - الصفحة الرئيسية",
     "home": "الرئيسية",
@@ -221,7 +219,7 @@
         },
         "phone": {
           "required": "أدخل رقم جوالك.",
-          "invalid": "أدخل رقم جوال سعودي مثل 05XXXXXXXX أو +9665XXXXXXXX."
+          "invalid": "أدخل رقم جوال سعودي مثل \u206605XXXXXXXX\u2069 أو \u2066+9665XXXXXXXX\u2069."
         },
         "subject": {
           "required": "أدخل الموضوع.",
