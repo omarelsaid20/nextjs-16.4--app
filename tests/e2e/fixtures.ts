@@ -3,7 +3,7 @@ import { test as base, expect } from '@playwright/test';
 type Fixtures = { allowedConsoleErrors: RegExp[]; consoleErrors: string[] };
 
 // Every spec imports `test` from here, so any browser console error or
-// uncaught page error fails the test (acceptance criterion 5).
+// uncaught page error fails the test.
 export const test = base.extend<Fixtures>({
   allowedConsoleErrors: [[], { option: true }],
   consoleErrors: [
@@ -22,3 +22,10 @@ export const test = base.extend<Fixtures>({
   ],
 });
 export { expect };
+
+// macOS WebKit tabs onto links only with Option+Tab. Windows WebKit can't tab
+// onto links at all, so those tests skip there; Linux CI runs them everywhere.
+export const tabKey = (browserName: string) =>
+  browserName === 'webkit' && process.platform === 'darwin' ? 'Alt+Tab' : 'Tab';
+export const cannotTabToLinks = (browserName: string) =>
+  browserName === 'webkit' && process.platform === 'win32';

@@ -50,7 +50,6 @@ it('every coming-soon slug has a page name', () => {
       expect(m.ComingSoon.pages[slug], slug).toBeTruthy();
 });
 
-// Acceptance criterion 3 at the data level: no internal link points nowhere.
 it('every internal href has a page', () => {
   const pages = new Set<string>([
     '/',
